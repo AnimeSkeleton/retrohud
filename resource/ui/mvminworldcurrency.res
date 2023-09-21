@@ -1,0 +1,100 @@
+"Resource/UI/MvMInWorldCurrency.res"
+{
+	"BorderBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BorderBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"50"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"0"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"TanLight"
+	}	
+	
+	"BackgroundGood"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BackgroundGood"
+		"xpos"			"1"
+		"ypos"			"1"
+		"zpos"			"2"
+		"wide"			"48"
+		"tall"			"18"
+		"visible"		"0"
+		"enabled"		"0"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"221 182 72 250"	
+	}
+
+	"CurrencyGood"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrencyGood"
+		"font"			"Shoplifter16"
+		"fgcolor"		"CreditsGreen"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"45"
+		"tall"			"15"
+		"visible"		"0"
+		"enabled"		"0"
+		"textAlignment"	"east"	
+		"labelText"		"%currency%"
+	}
+
+	"CurrencyGoodBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrencyGoodBG"
+		"font"			"Shoplifter16"
+		"fgcolor"		"Black"
+		"xpos"			"1"
+		"ypos"			"1"
+		"zpos"			"3"
+		"wide"			"45"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"east"	
+		"labelText"		"%currency%"
+	}
+	
+	"CurrencyBad"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrencyBad"
+		"font"			"Shoplifter16"
+		"fgcolor"		"White"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"45"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"east"	
+		"labelText"		"%currency%"
+	}
+
+	"CurrencyBadBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrencyBadBG"
+		"font"			"Shoplifter16"
+		"fgcolor"		"Black"
+		"xpos"			"1"
+		"ypos"			"1"
+		"zpos"			"3"
+		"wide"			"45"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"east"	
+		"labelText"		"%currency%"
+	}
+}
