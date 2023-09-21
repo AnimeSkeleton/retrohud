@@ -1,0 +1,87 @@
+"Resource/UI/HudItemEffectMeter_Sniper.res"
+{
+	HudItemEffectMeter
+	{
+		"fieldName"		"HudItemEffectMeter"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c100"
+		"ypos"			"c140"
+		"wide"			"90"
+		"tall"			"30"
+	}
+	
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"0"
+		"tall"					"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"#TF_Ball"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"TFFontSmall"
+	}
+
+	"KillstreakIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"KillstreakIcon"
+		"xpos"			"0"
+		"ypos"			"2"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"visible_minmode"		"0"
+		"enabled"		"1"
+		"image"			"../hud/skull"
+		"scaleImage"	"1"	
+	}						
+	
+	"ItemEffectMeterCount"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCount"
+		"xpos"					"30"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"60"
+		"tall"					"30"		
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"left"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"Shoplifter24"
+		"fgcolor"				"White"
+	}
+	"ItemEffectMeterCountBG"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountBG"
+		"xpos"					"32"
+		"ypos"					"2"
+		"zpos"					"2"
+		"wide"					"60"
+		"tall"					"30"		
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"left"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"Shoplifter24"
+		"fgcolor"				"Black"
+	}
+}
