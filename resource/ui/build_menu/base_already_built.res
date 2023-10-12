@@ -23,18 +23,23 @@
 	
 	"ItemBackground"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemBackground"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"85"
-		"tall"			"120"
+		"wide"			"80"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"TransparentBlack"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"	
 	}
 	
 	"CantBuildReason"

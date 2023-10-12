@@ -9,11 +9,6 @@
 	
 	"BuildingIcon"	
 	{
-		"icon"			"eureka_teleport_home"
-	}
-	
-	"NumberLabel"
-	{	
-		"labelText"		"1"
+		"image"			"../hud/objectives_flagpanel_ico_flag_home_alt"
 	}
 }

@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "hud\skull"
+	"$baseTexture" "vgui\replay\thumbnails\hud\\skull"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1

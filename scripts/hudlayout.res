@@ -14,12 +14,13 @@
 	HudWeaponAmmo
 	{
 		"fieldName" "HudWeaponAmmo"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"c40"
-		"ypos"	"c40"
-		"wide"	"240"
-		"tall"	"120"
+		"visible" 	"1"
+		"enabled" 	"1"
+		"xpos"		"r320"
+		"ypos"		"r210"
+		"zpos"		"2"
+		"wide"		"300"
+		"tall"		"200"
 	}
 	
 	HudObjectiveStatus
@@ -72,10 +73,11 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-60"
-		"ypos"			"c40"
-		"wide"			"120"
-		"tall"			"120"
+		"xpos"			"r320"
+		"ypos"			"r210"
+		"zpos"			"1"
+		"wide"			"300"
+		"tall"			"200"
 	}
 	
 	HudDemomanCharge
@@ -83,10 +85,11 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-60"
-		"ypos"			"c40"
-		"wide"			"120"
-		"tall"			"120"
+		"xpos"			"r320"
+		"ypos"			"r85"
+		"zpos"			"0"
+		"wide"			"150"
+		"tall"			"75"
 	}	
 
 	HudBowCharge
@@ -183,11 +186,8 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
+		"xpos"					"r162"
+		"ypos"					"r152"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -198,8 +198,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-130"
-		"ypos"					"c30"
+		"xpos"					"230"
+		"ypos"					"r185"
 		"wide"					"60"
 		"tall"  				"60"
 		"visible" 				"1"
@@ -222,15 +222,14 @@
 	DisguiseStatus
 	{
 		"fieldName" "DisguiseStatus"
+		"xpos"		"20"
+		"ypos"		"r210"
+		"zpos"		"1"
+		"wide"		"300"
+		"tall"			"200"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"	[$WIN32]
-		"ypos"		"r70"	[$WIN32]
-		"xpos"		"50"	[$X360]
-		"ypos"		"330"	[$X360]
-		"wide"		"500"
-		"tall"		"200"
-		"TextFont"	"Default"	[$X360]
+		"TextFont"	"Default"
 	}
 
 	CMainTargetID
@@ -239,8 +238,8 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-120"
-		"ypos"		"c40"
-		"wide"	 	"240"
+		"ypos"		"c60"
+		"wide"	 	"c-0.5"
 		"tall"	 	"40"
 		"priority"	"40"
 	}
@@ -250,13 +249,11 @@
 		"fieldName" 	"CSpectatorTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"250"
-		"wide"	 	"252"
+		"xpos"		"c-120"
+		"ypos"		"c125"
+		"wide"	 	"c-0.5"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
-		"priority_lodef" "35"
 		
 		"x_offset" "20"
 		"y_offset" "20"
@@ -267,11 +264,10 @@
 		"fieldName" 	"CSecondaryTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"c140"
-		"wide"	 	"252"
+		"xpos"		"c-120"
+		"ypos"		"c100"
+		"wide"	 	"c-0.5"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"35"
 
 		if_vr
@@ -324,7 +320,7 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c165"
+		"xpos"				"c140"
 		"ypos"				"c190"
 		"wide"				"50"
 		"tall"				"20"
@@ -561,13 +557,13 @@
 	HudSpellMenu
 	{
 		"fieldName" "HudSpellMenu"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-		"zpos" 	"2"
-		"xpos"			"130"
-		"ypos"			"r61"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"c160"
+		"ypos"		"c170"
+		"wide"		"60"
+		"tall"		"50"
+		"zpos"		"2"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
@@ -807,10 +803,9 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"9"	// distance between the icons (including their backgrounds)
+		"separator_width"		"4"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
-		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
+		"height_offset"			"0"
 	}
 
 	HudCapturePanel
@@ -947,15 +942,14 @@
 
 	"HudChat"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"HudChat"
+		"ControlName"	"EditablePanel"
+		"fieldName" 	"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
-		"ypos"			"275"
-		"wide"	 		"320"
-		"tall"	 		"120"
+		"xpos"			"10"
+		"ypos"			"r300"
+		"wide"	 		"280"
+		"tall"	 		"150"
 		"PaintBackgroundType"	"2"
 	}
 	
@@ -988,10 +982,10 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-125"
-		"ypos"			"c-55"
-		"wide"			"250"
-		"tall"			"195"
+		"xpos"			"c-180"
+		"ypos"			"c-80"
+		"wide"			"360"
+		"tall"			"140"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -1012,10 +1006,11 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-60"
-		"ypos"			"c40"
-		"wide"			"120"
-		"tall"			"120"
+		"xpos"			"r320"
+		"ypos"			"r85"
+		"zpos"			"2"
+		"wide"			"200"
+		"tall"			"75"
 	}	
 
 	HudTeamGoal
@@ -1475,6 +1470,22 @@
 		"keyboardinputenabled"	"1"
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
+	}
+
+	HudDamageIndicator
+	{
+		"fieldName" 	"HudDamageIndicator"
+		"visible"		"1"
+		"enabled"		"1"
+		"MinimumWidth"	"10"
+		"MaximumWidth"	"50"
+		"StartRadius"	"60"
+		"EndRadius"		"40"
+		"TravelTime"	"0.1"
+		"MinimumHeight"	"20"
+		"MaximumHeight"	"20"
+		"MinimumTime"	"0.1"
+		"MaximumTime"	"0.2"
 	}
 }
 

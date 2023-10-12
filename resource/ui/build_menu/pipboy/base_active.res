@@ -52,12 +52,12 @@
 		"icon"			"obj_status_sentrygun_3"
 		"iconColor"		"0 255 0 255"
 	}
-	
+
 	"MetalIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
-		"xpos"			"22"
+		"xpos"			"27"
 		"ypos"			"80"
 		"zpos"			"1"
 		"wide"			"8"
@@ -75,10 +75,10 @@
 		"fieldName"		"CostLabel"
 		"font"			"Default"
 		"fgcolor"		"0 255 0 255"
-		"xpos"			"0"
+		"xpos"			"25"
 		"ypos"			"77"
 		"zpos"			"1"
-		"wide"			"80"
+		"wide"			"40"
 		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -86,24 +86,5 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"	
-	}
-	
-	"ModeLabel"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"ModeLabel"
-		"font"			"DefaultSmall"
-		"fgcolor"		"0 255 0 255"
-		"xpos"			"33"
-		"ypos"			"17"
-		"zpos"			"1"
-		"wide"			"44"
-		"tall"			"13"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"	"East"	
 	}
 }

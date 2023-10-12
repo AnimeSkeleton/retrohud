@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Shoplifter32"
+		"font"			"Soopa32"
 		"fgcolor"		"White"
 		"xpos"			"200"
 		"ypos"			"5"
@@ -22,8 +22,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelBG"
-		"font"			"Shoplifter32"
-		"fgcolor"		"Black"
+		"font"			"Soopa32"
+		"fgcolor"		"TransparentBlack"
 		"xpos"			"202"
 		"ypos"			"7"
 		"zpos"			"3"
@@ -52,7 +52,6 @@
 		"icon"			"hud_spy_disguise_menu_icon"
 		"iconColor"		"White"
 	}
-	
 	
 	"class_item_red_1"
 	{

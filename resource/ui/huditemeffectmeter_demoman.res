@@ -5,10 +5,11 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c100"
-		"ypos"			"c140"
-		"wide"			"90"
-		"tall"			"30"
+		"xpos"			"r320"
+		"ypos"			"r210"
+		"zpos"			"2"
+		"wide"			"75"
+		"tall"			"75"
 	}
 	
 	"ItemEffectMeterBG"
@@ -55,7 +56,6 @@
 		"wide"			"30"
 		"tall"			"30"
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"../hud/skull"
 		"scaleImage"	"1"	
@@ -99,6 +99,23 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Shoplifter24"
-		"fgcolor"				"Black"
+		"fgcolor"				"TransparentBlack"
+	}
+
+	"ItemEffectMeter"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"font"					"Default"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"30"
+		"tall"					"5"
+		"visible"				"0"
+		"enabled"				"0"
+		"textAlignment"			"Left"
+		"dulltext"				"0"
+		"brighttext"			"0"
 	}
 }

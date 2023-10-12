@@ -22,7 +22,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
 		"font"			"Shoplifter16"
-		"fgcolor"		"Black"
+		"fgcolor"		"TransparentBlack"
 		"xpos"			"1"
 		"ypos"			"1"
 		"zpos"			"3"

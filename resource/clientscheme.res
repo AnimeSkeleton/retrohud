@@ -3058,6 +3058,15 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"Shoplifter48"
+		{
+			"1"
+			{
+				"name"		"Shoplifter"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
 		"Shoplifter64"
 		{
 			"1"
@@ -3067,40 +3076,67 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
-		"HandDraft16"
+		"Shoplifter96"
 		{
 			"1"
 			{
-				"name"		"HandDraft"
+				"name"		"Shoplifter"
+				"tall"		"96"
+				"antialias" "1"
+			}
+		}
+
+		"Soopa16"
+		{
+			"1"
+			{
+				"name"		"Soopafresh"
 				"tall"		"16"
 				"antialias" "1"
 			}
 		}
-		"HandDraft32"
+		"Soopa24"
 		{
 			"1"
 			{
-				"name"		"HandDraft"
+				"name"		"Soopafresh"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		"Soopa32"
+		{
+			"1"
+			{
+				"name"		"Soopafresh"
 				"tall"		"32"
 				"antialias" "1"
 			}
 		}
-		"HandDraft48"
+		"Soopa48"
 		{
 			"1"
 			{
-				"name"		"HandDraft"
+				"name"		"Soopafresh"
 				"tall"		"48"
 				"antialias" "1"
 			}
 		}
-		"HandDraft64"
+		"Soopa64"
 		{
 			"1"
 			{
-				"name"		"HandDraft"
+				"name"		"Soopafresh"
 				"tall"		"64"
+				"antialias" "1"
+			}
+		}
+		"Soopa96"
+		{
+			"1"
+			{
+				"name"		"Soopafresh"
+				"tall"		"96"
 				"antialias" "1"
 			}
 		}
@@ -5794,7 +5830,7 @@ Scheme
 	// Range specificies the characters to be used from the custom font before falling back to a default font
 	// characters in the range not specificed in the font will appear empty
 	// For TF2: Any special character will need to be added to our font file
-	CustomFontFiles
+	ShoplifterFiles
 	{
 		"1" "resource/tf.ttf"
 		"2" "resource/tfd.ttf"
@@ -5922,8 +5958,8 @@ Scheme
 		}
 		"9"
 		{
-			"font" "resource/fonts/handdraft.ttf"
-			"name" "HandDraft"
+			"font" "resource/fonts/soopafresh.ttf"
+			"name" "Soopafresh"
 		}
 	}
 }

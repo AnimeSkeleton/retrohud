@@ -331,8 +331,7 @@ event FlagOutline
 	Animate OutlineImage	Position	"c-200 140"		Linear 0.1 0.2
 	Animate OutlineImage	Size		"400 200"		Linear 0.1 0.2
 
-	Animate OutlineImage	Position	"c-50 r137"		Linear 0.7 0.2	[$WIN32]
-	Animate OutlineImage	Position	"c-50 r158"		Linear 0.7 0.2	[$X360]
+	Animate OutlineImage	Position	"c130 r70"		Linear 0.7 0.2
 	Animate OutlineImage	Size		"100 50"		Linear 0.7 0.2
 	
 	Animate OutlineImage	Alpha		"0"				Linear 0.9 0.1
@@ -343,18 +342,18 @@ event FlagOutline
 // Spy Disguise
 event HudSpyDisguiseChanged
 {
-	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Alpha		"200"			Linear 0.0 0.2
 	
-	Animate PlayerStatusSpyOutlineImage		Position	"c-200 c-200"	Linear 0.0 0.2
-	Animate PlayerStatusSpyOutlineImage		Size		"400 400"		Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Position	"0 200"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"200 200"		Linear 0.0 0.2
 
 	RunEvent HudSpyDisguiseHide	0.7
 }
 
 event HudSpyDisguiseHide
 {
-	Animate PlayerStatusSpyOutlineImage		Position	"3 413"			Linear 0.0 0.2
-	Animate PlayerStatusSpyOutlineImage		Size		"55 55"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Position	"50 400"		Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"100 100"		Linear 0.0 0.2
 	
 	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
 }
@@ -435,6 +434,22 @@ event HudMedicCharged
 	Animate	ChargeMeter 	FgColor		"255 0 255 255"		Linear 0.2 0.4
 	Animate	ChargeMeter 	FgColor		"0 0 255 255"		Linear 0.4 0.6
 
+	Animate	ChargeMeter1 	FgColor		"255 0 0 255"		Linear 0.0 0.2
+	Animate	ChargeMeter1 	FgColor		"255 0 255 255"		Linear 0.2 0.4
+	Animate	ChargeMeter1 	FgColor		"0 0 255 255"		Linear 0.4 0.6
+
+	Animate	ChargeMeter2 	FgColor		"255 0 0 255"		Linear 0.0 0.2
+	Animate	ChargeMeter2 	FgColor		"255 0 255 255"		Linear 0.2 0.4
+	Animate	ChargeMeter2 	FgColor		"0 0 255 255"		Linear 0.4 0.6
+
+	Animate	ChargeMeter3 	FgColor		"255 0 0 255"		Linear 0.0 0.2
+	Animate	ChargeMeter3 	FgColor		"255 0 255 255"		Linear 0.2 0.4
+	Animate	ChargeMeter3 	FgColor		"0 0 255 255"		Linear 0.4 0.6
+
+	Animate	ChargeMeter4 	FgColor		"255 0 0 255"		Linear 0.0 0.2
+	Animate	ChargeMeter4 	FgColor		"255 0 255 255"		Linear 0.2 0.4
+	Animate	ChargeMeter4 	FgColor		"0 0 255 255"		Linear 0.4 0.6
+
 	RunEvent HudMedicChargedLoop	0.8
 }
 
@@ -451,6 +466,11 @@ event HudMedicChargedStop
 	
 	Animate	ChargeLabel 	FgColor		"White"		Linear 0.0 0.0001
 	Animate	ChargeMeter 	FgColor		"White"		Linear 0.0 0.0001
+
+	Animate	ChargeMeter1 	FgColor		"White"		Linear 0.0 0.0001
+	Animate	ChargeMeter2 	FgColor		"White"		Linear 0.0 0.0001
+	Animate	ChargeMeter3 	FgColor		"White"		Linear 0.0 0.0001
+	Animate	ChargeMeter4 	FgColor		"White"		Linear 0.0 0.0001
 }
 
 //====================================
@@ -1423,12 +1443,12 @@ event QuestItem_Highlight_Off_Halloween
 //--------------------------------------------------------------------------
 event CompetitiveGame_LowerChatWindow
 {
-	Animate HudChat ypos r140 Accel 0 0
+	Animate HudChat ypos r160 Accel 0 0
 }
 
 event CompetitiveGame_RestoreChatWindow
 {
-	Animate HudChat ypos 275 Accel 0 0
+	Animate HudChat ypos r300 Accel 0 0
 }
 
 event HudTournament_MoveChatWindow

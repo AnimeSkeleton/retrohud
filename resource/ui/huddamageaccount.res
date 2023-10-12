@@ -2,8 +2,15 @@
 {
 	"CDamageAccountPanel"
 	{
-		"delta_item_font"		"HudFontMediumOutline"
-		"delta_item_font_big"	"HudFontMediumBoldOutline"
+		"fieldName"             "CDamageAccountPanel"
+		"text_x"                "0"
+		"text_y"                "0"
+		"delta_item_end_y"      "0"
+		"PositiveColor"         "0 255 0 255"
+		"NegativeColor"         "255 0 0 255"
+		"delta_lifetime"        "1.5"
+		"delta_item_font"       "Shoplifter16"
+		"delta_item_font_big"   "Shoplifter16"
 	}
 	
 	"DamageAccountValue"
@@ -19,7 +26,7 @@
 		"enabled"			"1"
 		"labelText"			"%metal%"
 		"textAlignment"		"center"
-		"fgcolor"			"RedSolid"
+		"fgcolor"			"White"
 		"font"				"Shoplifter16"
 	}
 
@@ -36,7 +43,7 @@
 		"enabled"			"1"
 		"labelText"			"%metal%"
 		"textAlignment"		"center"
-		"fgcolor"			"Black"
+		"fgcolor"			"TransparentBlack"
 		"font"				"Shoplifter16"
 	}
 }

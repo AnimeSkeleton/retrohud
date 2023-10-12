@@ -34,8 +34,8 @@
 		"xpos"			"0"
 		"ypos"			"2"
 		"zpos"			"2"
-		"wide"			"28"
-		"tall"			"28"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_equip_bg"
@@ -85,7 +85,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"Shoplifter16"
-		"fgcolor"		"Black"
+		"fgcolor"		"TransparentBlack"
 	}
 	"PlayerStatusPlayerLevel"
 	{

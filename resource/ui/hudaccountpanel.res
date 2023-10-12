@@ -3,9 +3,9 @@
 	"CHudAccountPanel"
 	{
 		"xpos"					"c-30"
-		"ypos"					"c40"
+		"ypos"					"c80"
 		"wide"					"60"
-		"tall"					"80"
+		"tall"					"60"
 		"delta_item_x"			"20"
 		"delta_item_start_y"	"5"
 		"delta_item_end_y"		"-5"
@@ -43,7 +43,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"Black"
+		"iconColor"		"TransparentBlack"
 	}
 	
 	"AccountValue"
@@ -86,6 +86,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Shoplifter24"
-		"fgcolor"		"Black"
+		"fgcolor"		"TransparentBlack"
 	}
 }

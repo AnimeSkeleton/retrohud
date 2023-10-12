@@ -9,11 +9,6 @@
 	
 	"BuildingIcon"	
 	{
-		"icon"			"hud_menu_tele_exit_build"
-	}
-	
-	"NumberLabel"
-	{	
-		"labelText"		"2"
+		"image"			"../hud/hud_obj_status_tele_exit"
 	}
 }

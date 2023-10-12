@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c100"
+		"xpos"			"c140"
 		"ypos"			"c140"
 		"wide"			"90"
 		"tall"			"30"
@@ -103,5 +103,24 @@
 		"brighttext"			"0"
 		"font"					"Shoplifter24"
 		"fgcolor"				"Black"
+	}
+	
+	"ItemEffectMeter"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"font"					"Default"
+		"xpos"					"20"
+		"ypos"					"45"
+		"zpos"					"2"
+		"wide"					"80"
+		"tall"					"8"			
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"Left"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"fgcolor_override"		"White"
+		"bgcolor_override"		"TransparentBlack"
 	}
 }
