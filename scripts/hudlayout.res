@@ -3,12 +3,13 @@
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
+		"visible" 	"1"
+		"enabled" 	"1"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"1"
+		"wide"		"f0"
+		"tall"		"480"
 	}
 
 	HudWeaponAmmo
@@ -18,7 +19,7 @@
 		"enabled" 	"1"
 		"xpos"		"r320"
 		"ypos"		"r210"
-		"zpos"		"2"
+		"zpos"		"5"
 		"wide"		"300"
 		"tall"		"200"
 	}
@@ -87,7 +88,7 @@
 		"enabled"		"1"
 		"xpos"			"r320"
 		"ypos"			"r85"
-		"zpos"			"0"
+		"zpos"			"3"
 		"wide"			"150"
 		"tall"			"75"
 	}	
@@ -97,18 +98,13 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"r80"
+		"ypos"			"r21"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
-		"wide_minmode"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"0 0 0 0"
 	}
 
 	HudFlameRocketCharge
@@ -116,18 +112,13 @@
 		"fieldName"		"HudFlameRocketCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"r80"
+		"ypos"			"r21"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
-		"wide_minmode"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"0 0 0 0"
 	}
 
 	HudBossHealth
@@ -221,15 +212,15 @@
 	
 	DisguiseStatus
 	{
-		"fieldName" "DisguiseStatus"
-		"xpos"		"20"
-		"ypos"		"r210"
-		"zpos"		"1"
-		"wide"		"300"
+		"fieldName" 	"DisguiseStatus"
+		"xpos"			"20"
+		"ypos"			"r210"
+		"zpos"			"5"
+		"wide"			"300"
 		"tall"			"200"
-		"visible"	"1"
-		"enabled"	"1"
-		"TextFont"	"Default"
+		"visible"		"1"
+		"enabled"		"1"
+		"TextFont"		"Default"
 	}
 
 	CMainTargetID
@@ -559,11 +550,11 @@
 		"fieldName" "HudSpellMenu"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c160"
-		"ypos"		"c170"
-		"wide"		"60"
-		"tall"		"50"
-		"zpos"		"2"
+		"xpos"		"r320"
+		"ypos"		"r210"
+		"zpos"		"6"
+		"wide"		"300"
+		"tall"		"200"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"

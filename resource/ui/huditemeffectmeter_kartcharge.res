@@ -1,13 +1,13 @@
-"Resource/UI/HudItemEffectMeter.res"
+"Resource/UI/HudItemEffectMeter_Scout.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"170"
-		"ypos"			"r85"
-		"zpos"			"2"
+		"xpos"			"164"
+		"ypos"			"r61"
+		"zpos"			"0"
 		"wide"			"150"
 		"tall"			"75"
 	}
@@ -57,7 +57,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_Ball"
+		"labelText"				"#TF_Kart"
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"

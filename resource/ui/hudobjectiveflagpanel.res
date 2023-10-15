@@ -112,8 +112,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-75"
-		"ypos"			"r45"
+		"xpos"			"c-45"
+		"ypos"			"r40"
 		"zpos"			"8"
 		"wide"			"40"
 		"tall"			"30"
@@ -144,8 +144,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-73"
-		"ypos"			"r43"
+		"xpos"			"c-43"
+		"ypos"			"r38"
 		"zpos"			"7"
 		"wide"			"40"
 		"tall"			"30"
@@ -176,8 +176,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c35"
-		"ypos"			"r45"
+		"xpos"			"c5"
+		"ypos"			"r40"
 		"zpos"			"8"
 		"wide"			"40"
 		"tall"			"30"
@@ -208,8 +208,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c37"
-		"ypos"			"r43"
+		"xpos"			"c7"
+		"ypos"			"r38"
 		"zpos"			"7"
 		"wide"			"40"
 		"tall"			"30"
@@ -281,7 +281,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"
-		"ypos"			"r28"
+		"ypos"			"r70"
 		"zpos"			"7"
 		"wide"			"140"
 		"tall"			"30"
@@ -308,47 +308,17 @@
 		{
 			"visible"	"0"
 		}
-	}	
-			
-	"PlayingToBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayingToBG"
-		"xpos"			"c-50"
-		"ypos"			"r33"
-		"zpos"			"6"
-		"wide"			"100"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"scaleImage"	"1"	
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-	}	
+	}
 		
 	"BlueFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-135"
-		"ypos"			"r70"
+		"xpos"			"c-80"
+		"ypos"			"r100"
 		"zpos"			"5"
 		"wide"			"160"
-		"tall"			"90"
+		"tall"			"80"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -383,11 +353,11 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c-25"
-		"ypos"			"r70"
+		"xpos"			"c-80"
+		"ypos"			"r100"
 		"zpos"			"5"
 		"wide"			"160"
-		"tall"			"90"
+		"tall"			"80"
 		"visible"		"1"
 		"enabled"		"1"
 				
@@ -422,11 +392,11 @@
 	{
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
-		"xpos"			"c-40"
-		"ypos"			"r70"
+		"xpos"			"c-80"
+		"ypos"			"r100"
 		"zpos"			"5"
-		"wide"			"80"
-		"tall"			"80"
+		"wide"			"160"
+		"tall"			"160"
 		"visible"		"0"
 		"enabled"		"1"
 		
@@ -446,7 +416,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PoisonIcon"
 		"xpos"			"cs-0.5"
-		"ypos"			"r75"
+		"ypos"			"r40"
 		"zpos"			"6"
 		"wide"			"40"
 		"tall"			"o1"

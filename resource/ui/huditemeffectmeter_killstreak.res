@@ -7,7 +7,7 @@
 		"enabled"		"1"
 		"xpos"			"20"
 		"ypos"			"r65"
-		"zpos"			"3"
+		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"40"
 		"MeterFG"		"White"

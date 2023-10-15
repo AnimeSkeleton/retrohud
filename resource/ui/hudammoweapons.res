@@ -6,7 +6,7 @@
 		"fieldName"		"HudWeaponAmmoBG"
 		"xpos"			"0"
 		"ypos"			"50"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"150"
 		"visible"		"1"
