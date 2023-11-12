@@ -4,7 +4,7 @@
 	{
 		"xpos"					"c-30"
 		"ypos"					"c80"
-		"zpos"					"3"
+		"zpos"					"1"
 		"wide"					"60"
 		"tall"					"60"
 		"delta_item_x"			"20"

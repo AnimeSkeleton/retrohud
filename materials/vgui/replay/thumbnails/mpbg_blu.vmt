@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/replay/thumbnails/bar_cowfg_red"
+	"$basetexture" "vgui/replay/thumbnails/mpbg_blu"
 	"$translucent" 1
 	"$vertexalpha" 1
 	"$vertexcolor" 1

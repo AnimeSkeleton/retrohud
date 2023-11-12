@@ -82,5 +82,5 @@
 		"brighttext"			"0"
 		"fgcolor_override"		"White"
 		"bgcolor_override"		"0 0 0 0"
-	}		
+	}
 }
