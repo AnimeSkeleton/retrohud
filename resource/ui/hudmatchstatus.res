@@ -291,7 +291,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Shoplifter16"
+			"font"			"DefaultLarge"
 			"fgcolor"		"White"
 			"xpos"			"cs-0.5"
 			"ypos"			"0"
